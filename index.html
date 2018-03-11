@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Спектр</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header class="top">
+        <div class="top_wrapper">
+            <div class="top__logo">
+                <img class="top__img" src="images/logo.png" alt="logo">
+            </div>
+            <div class="top__title">Спектр</div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <img class="banner__img" src="images/banner.jpg"/>
+        <div class="banner_wrapper">
+            <div class="banner__title">Спектр</div>
+            <div class="banner__desc">
+                Спектр - это информационно-аналитическая система анализа инцидентов ИБ. <br>
+                Добро пожаловать!
+            </div>
+            <div class="btn_wrapper">
+                <button class="banner__btn reg" reg="#register">Регистрация</button>
+                <button class="banner__btn">Вход</button>
+            </div>
+            <a class="banner__link" href="#first-link"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+        </div>
+    </section>
+
+    <section class="simple" id="first-link">
+        <div class="simple_wrapper">
+            <div class="simple__title">
+                <a>Надежная и удобная защита</a>
+            </div>
+            <div class="simple__desc">Профессионально подготовленные аналитики занимаются анализом и прогнозированием произошедших и возможных инцидентов. Вся информация хранится в базе данных, и к ней всегда есть доступ. Интуитивно простой дизайн и качественная работа!</div>
+        </div>
+    </section>
+
+    <section class="feature">
+        <div class="feature_wrapper">
+            <div class="feature__responsive-icon feature_icon-block">
+                <img class="feature__icon" src="images/icon1.png"/>
+                <div class="feature__text">
+                    <p class="feature__title">Оптимизированность</p>
+                    <p class="feature__desc">Спектр доступна с любого устройства</p>
+                </div>
+            </div>
+            <div class="feature__clean-icon feature_icon-block">
+                <img class="feature__icon" src="images/icon2.png"/>
+                <div class="feature__text">
+                    <p class="feature__title">Чистый и простой дизайн</p>
+                    <p class="feature__desc">Оформление системы специально создано для комфортного обращения</p>
+                </div>
+            </div>
+
+            <div class="feature__awesome-icon feature_icon-block">
+                <img class="feature__icon" src="images/icon3.png"/>
+                <div class="feature__text">
+                    <p class="feature__title">Доступность</p>
+                    <p class="feature__desc">Спектр доступна из любого места в любое время</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="portfolio_wrapper">
+            <div class="portfolio__titles">
+                <p class="portfolio__title">Форма работы с инцидентами</p>
+                <p class="portfolio__desc">Свяжитесь с нами, если есть вопросы</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="form" id="register">
+        <div class="form_wrapper">
+            <p class="form__title">Регистрация</p>
+            <p class="form__desc">Мы гарантируем качество и безопасность</p>
+
+            <form class="form_form">
+                <input type="email" class="form__input" placeholder="Электронная почти" required>
+                <input type="password" class="form__input" placeholder="Пароль" required>
+                <input type="password" class="form__input" placeholder="Повторите пароль" required>
+
+                <div class="form__btn-wrapper">
+                    <label for="checkbox">
+                        <input id="checkbox" type="checkbox" placeholder="checkbox" class="form__subscribe">
+                        Подписаться на рассылку
+                    </label>
+
+                    <button class="form__btn">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_wrapper">
+            <p class="footer__title">Кирпун Вадим 2018, Спектр</p>
+            <div class="footer__icons">
+                <a href="#" class="footer__icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#" class="footer__icon instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#" class="footer__icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#" class="footer__icon google"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
