@@ -70,11 +70,65 @@
         </div>
     </section>
 
-    <section class="portfolio">
-        <div class="portfolio_wrapper">
-            <div class="portfolio__titles">
-                <p class="portfolio__title">Форма работы с инцидентами</p>
-                <p class="portfolio__desc">Свяжитесь с нами, если есть вопросы</p>
+    <section class="work">
+        <div class="work_wrapper">
+            <div class="work__titles">
+                <p class="work__title">Форма работы с инцидентами</p>
+                <p class="work__desc">Свяжитесь с нами, если есть вопросы</p>
+            </div>
+
+            <div class="work__user">
+                <h3 class="work__user-title">Форма для пользователя</h3>
+                <form action="">
+                    <input type="text" class="work__user-desc form__input" placeholder="Краткое описание инцидента">
+                    <div class="work_wrapper-input">
+                        <input type="date" class="work__user-date form__input" placeholder="Дата">
+                        <input type="text" class="work__user-name form__input" placeholder="ФИО пользователя">
+                    </div>
+                    <input type="submit" class="work__btn">
+                </form>
+            </div>
+
+            <div class="work__user">
+                <h3 class="work__user-title work__analyst-title">Форма для аналитика (запрос инцидента)</h3>
+                <form action="" class="work_form">
+                    <input type="text" class="work__user-desc form__input" placeholder="Поиск инцидента (ключевые слова)">
+                    <div class="work_wrapper-input">
+                        <input type="date" class="work__user-date form__input" placeholder="Дата">
+                        <input type="text" class="work__user-name form__input" placeholder="ФИО аналитика">
+                    </div>
+                    <input type="submit" class="work__btn" value="Получить">
+                </form>
+            </div>
+
+            <div class="work__user">
+                <h3 class="work__user-title work__analyst-title">Форма для аналитика (загрузка анализа)</h3>
+                <form action="" class="work_form">
+                    <div class="work_wrapper-input">
+                        <input type="text" class="work__user-date form__input work__analyst-name" placeholder="ФИО аналитика">
+                        <input type="text" class="work__user-name form__input work__incidentID" placeholder="ID инцидента">
+                    </div>
+                    <textarea class="work__user-desc form__input work__analyst-desc" placeholder="Подробное описание инидента" cols="30" rows="10"></textarea>
+                    <div class="work_wrapper-input load_wrapper">
+                        <input type="date" class="form__input work__analyst-date" placeholder="Дата">
+                        <input type="submit" class="work__btn work__analyst-btn" value="Добавить">
+                    </div>
+                </form>
+            </div>
+
+            <div class="work__user">
+                <h3 class="work__user-title work__analyst-title">Форма для аналитика (загрузка прогноза)</h3>
+                <form action="" class="work_form">
+                    <div class="work_wrapper-input">
+                        <input type="text" class="work__user-date form__input work__analyst-name" placeholder="ФИО аналитика">
+                        <input type="text" class="work__user-name form__input work__incidentID" placeholder="ID инцидента">
+                    </div>
+                    <textarea class="work__user-desc form__input work__analyst-desc" placeholder="Описание прогнозов на будущее" cols="30" rows="10"></textarea>
+                    <div class="work_wrapper-input last_wrapper">
+                        <input type="date" class="form__input work__analyst-date" placeholder="Дата">
+                        <input type="submit" class="work__btn work__analyst-btn" value="Добавить">
+                    </div>
+                </form>
             </div>
         </div>
     </section>
@@ -112,7 +166,9 @@
             </div>
         </div>
     </footer>
+
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript" src="//web-ptica.ru/VRV-files/knopkavverh/3.js"></script>
 </body>
 </html>
